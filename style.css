@@ -1,0 +1,77 @@
+
+body{
+     margin:0;
+    padding: 0;
+    font-family: "Lexend Deca" , sans-serif;
+    color:hsla(0, 0%, 100%, 0.75);
+    
+    font-size: 15px;
+}
+.container{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    height: 100vh;
+    max-width: 800px;
+}
+img{
+    width: 35%;
+}
+h1{
+    color: hsl(0, 0%, 95%);
+   
+    font-family: "Big Shoulders Display" , cursive;
+}
+.section{
+   padding:35px;
+   max-width: 250px;
+   height: 350px;
+}
+
+ .one{
+   background-color:hsl(31, 77%, 52%) ;
+   border-radius: 8px 0px 0px 8px;
+}
+.two{
+    background-color: hsl(184, 100%, 22%);
+ }
+ .three{
+    background-color:hsl(179, 100%, 13%) ;
+    border-radius: 0px 8px 8px 0px;
+ }
+.btn{
+    padding: 10px 25px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 95%);
+    border-color: hsl(0, 0%, 95%);
+    margin-top: 25px;
+    font-family: "Lexend Deca" , sans-serif;
+
+}
+.one .btn{
+    
+    color:hsl(31, 77%, 52%)
+}
+.two .btn{
+    
+    color:hsl(184, 100%, 22%)
+}
+.three .btn{
+   
+    color:hsl(179, 100%, 13%)
+}
+@media only screen and (max-width: 600px) {
+    .container {
+      display: block;
+    }
+    .section{
+        
+        max-height: 500px;
+        margin: 4% auto;
+        border-radius: 5%;
+
+
+     }
+  }
